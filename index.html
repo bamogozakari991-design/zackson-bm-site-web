@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Site officiel de Zackson BM, artiste musicien Afrobeat.">
+  <meta name="theme-color" content="#10100f">
+  <title>Zackson BM | Artiste musicien</title>
+  <style>
+    :root{--gold:#e8b84b;--ink:#10100f;--paper:#f7f3e9;--muted:#b9b2a3}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--ink);color:var(--paper);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#10100feF;border-bottom:1px solid #ffffff18;backdrop-filter:blur(10px)}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0}
+    .brand{font-weight:900;letter-spacing:2px;color:var(--gold);font-size:1.15rem}
+    .links{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem;color:#eee}
+    .links a:hover,.social a:hover{color:var(--gold)}
+    .hero{min-height:78vh;display:grid;align-items:center;position:relative;overflow:hidden;
+      background:radial-gradient(ellipse at 80% 25%,#8b5c1c55,transparent 40%),
+      radial-gradient(ellipse at 10% 90%,#6d2b1850,transparent 35%),linear-gradient(135deg,#171714,#252017 60%,#111)}
+    .hero:after{content:"";position:absolute;width:340px;height:340px;border:1px solid #e8b84b55;border-radius:50%;right:5%;top:18%;box-shadow:0 0 0 28px #e8b84b0d,0 0 0 58px #e8b84b09}
+    .hero-content{position:relative;z-index:1;padding:80px 0}
+    .eyebrow{color:var(--gold);font-weight:bold;letter-spacing:4px;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(3.4rem,10vw,7.5rem);line-height:.95;margin:18px 0;letter-spacing:-4px}
+    h1 span{color:var(--gold)}
+    .lead{max-width:590px;color:#ddd4c2;font-size:1.15rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 20px;border-radius:4px;font-weight:bold;border:1px solid var(--gold)}
+    .primary{background:var(--gold);color:#17130a}.secondary{color:var(--paper)}
+    section{padding:78px 0}
+    .section-title{font-size:clamp(2rem,5vw,3rem);margin:0 0 12px}
+    .section-title span{color:var(--gold)}
+    .intro{color:var(--muted);max-width:700px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+    .card{background:#1b1a17;border:1px solid #ffffff17;padding:24px;border-radius:8px}
+    .card h3{margin:8px 0;color:var(--gold)}
+    .number{font-size:2rem;color:var(--gold);font-weight:900}
+    .music{background:#171613}
+    .video{margin-top:25px;padding:26px;border:1px solid #e8b84b55;border-radius:8px;background:linear-gradient(120deg,#292216,#171613)}
+    .social{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .social a{border:1px solid #ffffff35;border-radius:4px;padding:12px 18px;font-weight:bold}
+    .contact{background:#211d15}
+    footer{padding:25px 0;border-top:1px solid #ffffff20;color:var(--muted);font-size:.9rem}
+    @media(max-width:700px){.links{gap:10px;font-size:.78rem}.grid{grid-template-columns:1fr}.hero:after{right:-190px;opacity:.6}h1{letter-spacing:-2px}section{padding:58px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#accueil">ZACKSON BM</a>
+      <div class="links">
+        <a href="#apropos">À propos</a><a href="#musique">Musique</a>
+        <a href="#reseaux">Réseaux</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="wrap hero-content">
+      <div class="eyebrow">Artiste musicien · Afrobeat</div>
+      <h1>ZACKSON<br><span>BM</span></h1>
+      <p class="lead">La musique raconte mon histoire : la vie du quartier, les défis du quotidien et l'espoir. Des sonorités Afrobeat en français et en mooré.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://www.youtube.com/@ZACKSONbm" target="_blank" rel="noopener">Écouter sur YouTube</a>
+        <a class="btn secondary" href="#apropos">Découvrir l'artiste</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos">
+    <div class="wrap">
+      <div class="eyebrow">Qui suis-je ?</div>
+      <h2 class="section-title">À propos de <span>Zackson BM</span></h2>
+      <p class="intro">Zackson BM est un artiste musicien qui explore l'Afrobeat à travers des chansons en français et en mooré. Son univers s'inspire de la réalité, de la vie au quartier, de la persévérance et des expériences du quotidien.</p>
+      <div class="grid">
+        <article class="card"><div class="number">01</div><h3>Mon style</h3><p>Afrobeat, rythmes africains et énergie moderne.</p></article>
+        <article class="card"><div class="number">02</div><h3>Mes langues</h3><p>Français et mooré, pour partager mes histoires.</p></article>
+        <article class="card"><div class="number">03</div><h3>Mes thèmes</h3><p>La galère, la vie au quartier, le courage et l'espoir.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="music" id="musique">
+    <div class="wrap">
+      <div class="eyebrow">Découvrir mes sons</div>
+      <h2 class="section-title">Musique & <span>clips</span></h2>
+      <p class="intro">Retrouve mes vidéos et mes nouveautés sur ma chaîne YouTube officielle.</p>
+      <div class="video">
+        <h3>Chaîne officielle ZACKSON BM</h3>
+        <p>Clips, sorties musicales et actualités de l'artiste.</p>
+        <a class="btn primary" href="https://www.youtube.com/@ZACKSONbm" target="_blank" rel="noopener">Voir la chaîne YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reseaux">
+    <div class="wrap">
+      <div class="eyebrow">Restons connectés</div>
+      <h2 class="section-title">Mes <span>réseaux sociaux</span></h2>
+      <p class="intro">Suis Zackson BM pour ne rien manquer des nouvelles musiques, vidéos et annonces.</p>
+      <div class="social">
+        <a href="https://www.tiktok.com/@burkinbila.boy" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.facebook.com/profile.php?id=61597044237755" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.youtube.com/@ZACKSONbm" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://open.spotify.com/user/312zdgzssv6odpyfp7o7m5so6ami?si=BzX8jnVWRBOo8wIuUfwnXg&utm_source=copy-link" target="_blank" rel="noopener">Spotify</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="eyebrow">Professionnel & collaborations</div>
+      <h2 class="section-title">Contact <span>artiste</span></h2>
+      <p class="intro">Pour les collaborations, invitations et informations, contacte directement l'équipe de Zackson BM.</p>
+      <p><strong>Adresse e-mail :</strong> <a href="mailto:Zakaribamogo991@gmail.com">Zakaribamogo991@gmail.com</a></p>
+      <p><strong>Téléphone / WhatsApp :</strong> <a href="https://wa.me/22664361583" target="_blank" rel="noopener">+226 64 36 15 83</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> ZACKSON BM · Site officiel · Tous droits réservés.</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
